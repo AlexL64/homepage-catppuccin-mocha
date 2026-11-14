@@ -56,6 +56,10 @@ html {
     background: var(--surface1);
 }
 
+.bookmark:hover .bookmark-icon {
+    background: color-mix(in srgb, var(--accent) 80%, white);
+}
+
 .service-card,
 .bookmark>a {
     box-shadow: none;
