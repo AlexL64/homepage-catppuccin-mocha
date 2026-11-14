@@ -51,6 +51,11 @@ html {
     background: var(--surface1);
 }
 
+.service-card,
+.bookmark>a {
+    box-shadow: none;
+}
+
 .bookmark-icon {
     background: var(--accent);
 }
