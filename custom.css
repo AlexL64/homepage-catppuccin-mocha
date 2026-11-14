@@ -25,6 +25,8 @@
     --base: #1e1e2e;
     --mantle: #181825;
     --crust: #11111b;
+
+    --accent: var(--mauve);
 }
 
 
@@ -34,4 +36,21 @@
 body,
 html {
     background-color: var(--base) !important;
+}
+
+
+/* Cards */
+
+.service-card,
+.bookmark-text {
+    background: var(--surface0);
+}
+
+.service-card:hover,
+.bookmark:hover .bookmark-text {
+    background: var(--surface1);
+}
+
+.bookmark-icon {
+    background: var(--accent);
 }
