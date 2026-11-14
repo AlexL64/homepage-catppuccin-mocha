@@ -76,3 +76,11 @@ html {
 .service-description {
     color: var(--subtext0)
 }
+
+
+/* Titles */
+
+.service-group-name,
+.bookmark-group-name {
+    color: var(--text);
+}
