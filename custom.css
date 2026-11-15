@@ -117,3 +117,19 @@ input::placeholder {
 .information-widget-search svg {
     color: var(--text);
 }
+
+
+/* Resources */
+
+.information-widget-resource div,
+.information-widget-resource svg {
+    color: var(--text) !important;
+}
+
+.resource-usage {
+    background-color: color-mix(in srgb, var(--accent) 50%, black);
+}
+
+.resource-usage > div {
+    background-color: var(--accent);
+}
