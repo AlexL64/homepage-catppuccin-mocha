@@ -85,7 +85,8 @@ html {
 /* Titles */
 
 .service-group-name,
-.bookmark-group-name {
+.bookmark-group-name,
+.group svg {
     color: var(--text);
 }
 
