@@ -151,3 +151,28 @@ input::placeholder {
 #footer a {
     color: var(--text);
 }
+
+
+/* Dialog */
+
+dialog {
+    background-color: var(--surface0);
+    box-shadow: none;
+}
+
+dialog button.bg-theme-300\/50 {
+    background-color: color-mix(in srgb, var(--accent) 50%, black);
+}
+
+dialog button div {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+dialog button span {
+    color: var(--text);
+}
+
+dialog button .text-theme-600 {
+    color: var(--accent);
+}
