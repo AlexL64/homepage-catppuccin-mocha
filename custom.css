@@ -140,3 +140,14 @@ input::placeholder {
 .resource-usage>div {
     background-color: var(--accent);
 }
+
+
+/* Footer */
+
+#footer svg {
+    color: var(--accent);
+}
+
+#footer a {
+    color: var(--text);
+}
