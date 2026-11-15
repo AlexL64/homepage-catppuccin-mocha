@@ -119,17 +119,23 @@ input::placeholder {
 }
 
 
+/* Information Widgets */
+#information-widgets {
+    border-color: var(--accent);
+}
+
+
 /* Resources */
 
 .information-widget-resource div,
 .information-widget-resource svg {
-    color: var(--text) !important;
+    color: var(--text);
 }
 
 .resource-usage {
     background-color: color-mix(in srgb, var(--accent) 50%, black);
 }
 
-.resource-usage > div {
+.resource-usage>div {
     background-color: var(--accent);
 }
