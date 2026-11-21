@@ -202,3 +202,15 @@ dialog button .text-theme-600 {
 .service span.bg-green-500 {
     background-color: var(--green);
 }
+
+.service-tag>div:not(:has(.rounded-full)) {
+    background-color: var(--surface1);
+}
+
+.service-tag .text-emerald-500\/80 {
+    color: var(--green);
+}
+
+.service-tag .text-rose-500\/80 {
+    color: var(--red);
+}
