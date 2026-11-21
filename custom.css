@@ -180,3 +180,11 @@ dialog button span {
 dialog button .text-theme-600 {
     color: var(--accent);
 }
+
+
+/* Services */
+
+.service-block {
+    background-color: var(--surface1);
+    color: var(--text);
+}
