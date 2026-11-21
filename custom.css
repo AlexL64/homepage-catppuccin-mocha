@@ -199,5 +199,5 @@ dialog button .text-theme-600 {
 }
 
 .service span.bg-green-500 {
-    color: var(--green);
+    background-color: var(--green);
 }
