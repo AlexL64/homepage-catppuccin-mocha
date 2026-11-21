@@ -53,7 +53,7 @@ html {
 
 .service-card:hover,
 .bookmark:hover .bookmark-text {
-    background: var(--surface1);
+    background: color-mix(in srgb, var(--surface0) 95%, white);
 }
 
 .bookmark:hover .bookmark-icon {
