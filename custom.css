@@ -188,3 +188,16 @@ dialog button .text-theme-600 {
     background-color: var(--surface1);
     color: var(--text);
 }
+
+.service .bg-theme-200\/50 {
+    background-color: var(--surface1);
+    color: var(--text);
+}
+
+.service .bg-theme-200 {
+    background-color: var(--accent);
+}
+
+.service span.bg-green-500 {
+    color: var(--green);
+}
